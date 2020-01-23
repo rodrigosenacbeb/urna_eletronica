@@ -100,16 +100,25 @@ namespace UrnaEletronica
 
         private void btnCorrige_Click(object sender, EventArgs e)
         {
+            Limpar();
+        }
+
+        void Limpar()
+        {
             txtNumero1.Clear();
             txtNumero2.Clear();
             pcbCandidato.BackgroundImage = null;
             lblNomeCandidato.Visible = false;
+            lblNomeCandidato.Text = "";
         }
 
         private void btnBranco_Click(object sender, EventArgs e)
         {
             lblNomeCandidato.Visible = true;
             lblNomeCandidato.Text = "Voto em Branco";
+            pcbCandidato.BackgroundImage = null;
+            txtNumero1.Clear();
+            txtNumero2.Clear();
         }
 
         private void btnConfirma_Click(object sender, EventArgs e)
@@ -117,6 +126,9 @@ namespace UrnaEletronica
             if (lblNomeCandidato.Text == "Voto em Branco")
             {
                 branco++;
+                lblNomeCandidato.Text = "";
+                TocarSom();
+                Limpar();
             }
             else
             {
@@ -124,15 +136,23 @@ namespace UrnaEletronica
                 {
                     case "11":
                         silvio++;
+                        TocarSom();
+                        Limpar();
                         break;
                     case "21":
                         faustao++;
+                        TocarSom();
+                        Limpar();
                         break;
                     case "31":
                         gloria++;
+                        TocarSom();
+                        Limpar();
                         break;
                     case "41":
                         gretchen++;
+                        TocarSom();
+                        Limpar();
                         break;
                     default:
                         MessageBox.Show("Você precisa informar um Voto Inválido!");
@@ -154,6 +174,12 @@ namespace UrnaEletronica
         private void btn0_Click(object sender, EventArgs e)
         {
             NovoDigito("0");
+        }
+
+        void TocarSom()
+        {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer("som_urna.wav");
+            player.Play();
         }
     }
 }
