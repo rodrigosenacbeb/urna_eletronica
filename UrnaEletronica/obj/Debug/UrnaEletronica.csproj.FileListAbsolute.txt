@@ -2,8 +2,9 @@ C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\bin\D
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\bin\Debug\UrnaEletronica.exe
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\bin\Debug\UrnaEletronica.pdb
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.csprojAssemblyReference.cache
-C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.Form1.resources
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.Properties.Resources.resources
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.csproj.GenerateResource.cache
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.exe
 C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.pdb
+C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.FrmResultado.resources
+C:\Users\rodrigo.gsantana1\Desktop\aula_prog\UrnaEletronica\UrnaEletronica\obj\Debug\UrnaEletronica.FrmUrna.resources

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UrnaEletronica
 {
-    public partial class Form1 : Form
+    public partial class FrmUrna : Form
     {
-        public Form1()
+        public FrmUrna()
         {
             InitializeComponent();
         }
@@ -155,10 +155,16 @@ namespace UrnaEletronica
                         Limpar();
                         break;
                     default:
-                        MessageBox.Show("Você precisa informar um Voto Inválido!");
+                        MessageBox.Show("Você precisa informar um voto válido!");
                         break;
                 }
             }
+        }
+
+        private void btnEncerrarVotacao_Click(object sender, EventArgs e)
+        {
+            FrmResultado frmResultado = new FrmResultado(silvio, faustao, gloria, gretchen, branco);
+            frmResultado.ShowDialog();
         }
 
         private void btn8_Click(object sender, EventArgs e)
